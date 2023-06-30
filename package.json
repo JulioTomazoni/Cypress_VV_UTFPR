@@ -4,5 +4,8 @@
   },
   "scripts": {
     "start": "npx cypress open"
+  },
+  "dependencies": {
+    "mochawesome": "^7.1.3"
   }
 }
