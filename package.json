@@ -3,7 +3,8 @@
     "cypress": "^12.14.0"
   },
   "scripts": {
-    "start": "npx cypress open"
+    "start": "npx cypress open",
+    "video": "npx cypress run"
   },
   "dependencies": {
     "mochawesome": "^7.1.3"

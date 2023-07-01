@@ -14,6 +14,7 @@ describe('Cenario 01 - TRELLO', () => {
     cy.get('#login-submit').click().wait(2000)
     //O Trello é acessado através da tela inicial do Atlassian
     cy.get('.sc-bdVaJa').click().wait(1000)    
+    cy.get('.rVz43wK3rQUlj3 > :nth-child(1) > .oTmCsFlPhDLGz2 > .DD3DlImSMT6fgc').click().wait(1000)
   })
 })
 
